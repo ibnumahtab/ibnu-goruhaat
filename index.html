@@ -30,6 +30,10 @@
 
 	<!-- Internal Custom CSS -->
 	<style>
+		::selection {
+			background-color: #198754;
+			color: #fff;
+		}
 		body {
 			font-family: 'Hind Siliguri', sans-serif;
 		}
@@ -54,7 +58,7 @@
 	<!-- =========== Header Section Starts =========== -->
 	<header id="header-section">
 		<!-- Navbar Start -->
-		<nav class="navbar navbar-expand-lg navbar-light bg-light py-3 border-bottom border-3">
+		<nav style="z-index: 10;" class="navbar navbar-expand-lg navbar-light bg-light sticky-top py-3 border-bottom border-3">
 			<div class="container">
 				<a class="navbar-brand fw-bold" href="#">ইবনু <span class="text-success">গরুহাট</span></a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -94,7 +98,7 @@
 		<!-- Navbar End -->
 
 		<!-- Carousel Start -->
-		<section id="carousel" class="position-relative overflow-hidden">
+		<section id="carousel" class="position-relative">
 			<div id="overlay"></div>
 			<div class="carousel-text position-absolute top-50 start-50 translate-middle w-100" style="z-index: 3;">
 				<h1 class="display-1 text-light fw-bold text-center">ইবনু ডিজিটাল
@@ -170,7 +174,7 @@
 		<!-- Welcome End -->
 
 		<!-- Main Categories Start -->
-		<section id="main-categories overflow-hidden">
+		<section id="main-categories" class="overflow-hidden">
 			<div class="container py-5">
 				<div class="row g-2">
 					<div class="col col-lg-4 col-md-6">
