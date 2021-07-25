@@ -34,11 +34,12 @@
 			background-color: #198754;
 			color: #fff;
 		}
+
 		body {
 			font-family: 'Hind Siliguri', sans-serif;
 		}
 
-		#overlay {
+		.overlay {
 			position: absolute;
 			display: block;
 			width: 100%;
@@ -58,7 +59,8 @@
 	<!-- =========== Header Section Starts =========== -->
 	<header id="header-section">
 		<!-- Navbar Start -->
-		<nav style="z-index: 10;" class="navbar navbar-expand-lg navbar-light bg-light sticky-top py-3 border-bottom border-3">
+		<nav style="z-index: 10;"
+			class="navbar navbar-expand-lg navbar-light bg-light sticky-top py-3 border-bottom border-3">
 			<div class="container">
 				<a class="navbar-brand fw-bold" href="#">ইবনু <span class="text-success">গরুহাট</span></a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -99,7 +101,7 @@
 
 		<!-- Carousel Start -->
 		<section id="carousel" class="position-relative">
-			<div id="overlay"></div>
+			<div class="overlay"></div>
 			<div class="carousel-text position-absolute top-50 start-50 translate-middle w-100" style="z-index: 3;">
 				<h1 class="display-1 text-light fw-bold text-center">ইবনু ডিজিটাল
 					<span class="text-success">গরুহাট</span>
@@ -183,7 +185,8 @@
 							<div class="card-body py-2">
 								<h2 class="card-title fw-bold">গরু</h2>
 								<p class="card-text">বড়-গরু, ছোট-গরু, লাল-গরু, সাদা-গরু, কালো-গরু সবই আছে। আপনাকে
-									কষ্ট করে খুঁজে নিতে হবে। খোঁজার জন্য&nbsp;<span class="fw-bold">আরো দেখুন&nbsp;</span>বাটনে চাপুন!</p>
+									কষ্ট করে খুঁজে নিতে হবে। খোঁজার জন্য&nbsp;<span class="fw-bold">আরো
+										দেখুন&nbsp;</span>বাটনে চাপুন!</p>
 								<a href="#" class="btn btn-success">আরো দেখুন</a>
 							</div>
 						</div>
@@ -214,6 +217,28 @@
 			</div>
 		</section>
 		<!-- Main Categories End -->
+
+		<!-- About Owner Start -->
+		<section id="about-owner" class="position-relative">
+			<div class="overlay"></div>
+			<img class="img-fluid" src="./images/cow-bg-2.jpg" alt="">
+			<div style="z-index: 10;" class="container text-light d-flex justify-content-between align-items-center position-absolute top-50 start-50 translate-middle w-100">
+				<div id="owner-text" class="w-50">
+					<h1 class="display-1 text-success">আমার সম্পর্কে!</h1>
+					<p class="lead">এই ডিজিটাল গরুহাটের মালিক হলাম আমি! তো, আমার সম্পর্কে কিছু জানবেন না, তা কি হয়?!</p>
+					<div class="separate-icon my-3 text-center">
+						<i class="bi bi-box fs-5"></i>
+					</div>
+					<h2 class="display-3 text-light fw-bold">ইবনু মাহতাব</h2>
+					<p class="lead">ভেবেছিলাম অনেক কিছুই বলবো। পরে ভাবলাম না থাক! গরু-ছাগলের ওয়েবসাইটে আসা মানুষগুলো হাটের মালিকের সম্পর্কে জানার চেয়ে বেশি আগ্রহী থাকে ঐ গরু-ছাগল সম্পর্কে জানতে! তাই, নিজের ব্যাপারে এতটুকুই বলি, গরু-ছাগলের এই হাট যেমন আমার নিজের। তেমনিভাবে এই ওয়েবসাইটটাও আমার নিজেরই তৈরী করা! <br> এর মানে বুঝলেন কিছু? আমি একজন <span class="text-info">আমি একজন ওয়েব ডেভেলোপারও!</span> তারপরেও যদি আরো বেশি কিছু জানতে ইচ্ছে করে, তাহলে নিচে যে <span class="fw-bold">আরো জানুন</span> বাটনটা আছে, সেখানে ক্লিক মেরে দিন।</p>
+					<a href="#" class="btn link-light border-2 border-success">আরো জানুন!</a>
+				</div>
+				<div class="owner-image">
+					<img src="./images/ibnumahtab.png" alt="Ibnu Mahtab">
+				</div>
+			</div>
+		</section>
+		<!-- About Owner Ends -->
 	</main>
 	<!-- =========== Main Section Ends =========== -->
 
