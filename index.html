@@ -35,6 +35,11 @@
 			color: #fff;
 		}
 
+		.box ::selection {
+			background-color: #fff;
+			color: #198754;
+		}
+
 		body {
 			font-family: 'Hind Siliguri', sans-serif;
 		}
@@ -219,10 +224,11 @@
 		<!-- Main Categories End -->
 
 		<!-- About Owner Start -->
-		<section id="about-owner" class="position-relative">
+		<section id="about-owner" class="position-relative overflow-hidden">
 			<div class="overlay"></div>
 			<img class="img-fluid" src="./images/cow-bg-2.jpg" alt="">
-			<div style="z-index: 10;" class="container text-light d-flex justify-content-between align-items-center position-absolute top-50 start-50 translate-middle w-100">
+			<div style="z-index: 10;"
+				class="container text-light d-flex justify-content-between align-items-center position-absolute top-50 start-50 translate-middle w-100">
 				<div id="owner-text" class="w-50">
 					<h1 class="display-1 text-success">আমার সম্পর্কে!</h1>
 					<p class="lead">এই ডিজিটাল গরুহাটের মালিক হলাম আমি! তো, আমার সম্পর্কে কিছু জানবেন না, তা কি হয়?!</p>
@@ -230,7 +236,12 @@
 						<i class="bi bi-box fs-5"></i>
 					</div>
 					<h2 class="display-3 text-light fw-bold">ইবনু মাহতাব</h2>
-					<p class="lead">ভেবেছিলাম অনেক কিছুই বলবো। পরে ভাবলাম না থাক! গরু-ছাগলের ওয়েবসাইটে আসা মানুষগুলো হাটের মালিকের সম্পর্কে জানার চেয়ে বেশি আগ্রহী থাকে ঐ গরু-ছাগল সম্পর্কে জানতে! তাই, নিজের ব্যাপারে এতটুকুই বলি, গরু-ছাগলের এই হাট যেমন আমার নিজের। তেমনিভাবে এই ওয়েবসাইটটাও আমার নিজেরই তৈরী করা! <br> এর মানে বুঝলেন কিছু? আমি একজন <span class="text-info">আমি একজন ওয়েব ডেভেলোপারও!</span> তারপরেও যদি আরো বেশি কিছু জানতে ইচ্ছে করে, তাহলে নিচে যে <span class="fw-bold">আরো জানুন</span> বাটনটা আছে, সেখানে ক্লিক মেরে দিন।</p>
+					<p class="lead">ভেবেছিলাম অনেক কিছুই বলবো। পরে ভাবলাম না থাক! গরু-ছাগলের ওয়েবসাইটে আসা মানুষগুলো
+						হাটের মালিকের সম্পর্কে জানার চেয়ে বেশি আগ্রহী থাকে ঐ গরু-ছাগল সম্পর্কে জানতে! তাই, নিজের
+						ব্যাপারে এতটুকুই বলি, গরু-ছাগলের এই হাট যেমন আমার নিজের। তেমনিভাবে এই ওয়েবসাইটটাও আমার নিজেরই
+						তৈরী করা! <br> এর মানে বুঝলেন কিছু? আমি একজন <span class="text-info">আমি একজন ওয়েব
+							ডেভেলোপারও!</span> তারপরেও যদি আরো বেশি কিছু জানতে ইচ্ছে করে, তাহলে নিচে <span
+							class="fw-bold">আরো জানুন</span> বাটনে ক্লিক মেরে দিন।</p>
 					<a href="#" class="btn link-light border-2 border-success">আরো জানুন!</a>
 				</div>
 				<div class="owner-image">
@@ -239,6 +250,42 @@
 			</div>
 		</section>
 		<!-- About Owner Ends -->
+
+		<!-- About Animals Start -->
+		<section id="about-animals">
+			<div class="container">
+				<div class="w-75 mx-auto py-5">
+					<div class="animal-heading text-center">
+						<h1 class="display-3">গরু-ছাগল সম্পর্কিত তথ্য!</h1>
+						<h2 class="lead">এখানে গরু-ছাগলরা এসে নিজেদের সম্পরকে কিছু তথ্য বলে বলে যাবে। আসলে সবাই এক এক করে তো আসবে না। সব গরুর পক্ষ থেকে এক গরু আসবে। তেমনি ভাবে সব ছাগলের পক্ষ হতে এক ছাগল আসবে।</h2>
+						<div class="separate-icon text-center my-3">
+							<i class="bi bi-box fs-5"></i>
+						</div>
+					</div>
+				</div>
+				<div class="box bg-success d-flex justify-content-between align-items-center mx-auto overflow-hidden" style="height: 550px; width: 1000px;">
+					<div class="animal-image">
+						<img class="img-fluid" src="./images/iamcow.jpg" alt="">
+					</div>
+					<div class="animal-details w-50 d-flex flex-column text-center text-light px-5 py-5">
+						<div class="animal-list pb-2">
+							<ul class="list-unstyled p-1 d-flex bg-light rounded-pill">
+								<li class="px-4 py-1 me-1 rounded-pill bg-success">গরু</li>
+								<li class="px-4 py-1 me-1 rounded-pill text-success">ছাগল</li>
+								<li class="px-4 py-1 me-1 rounded-pill text-success">উট</li>
+								<li class="px-4 py-1 rounded-pill text-success">অন্যান্য</li>
+							</ul>
+						</div>
+						<div class="animal-description">
+							<h2 class="display-5">আমি গরু!</h2>
+							<p>আমি কোথায় জন্ম নিসি জানি না। বড় হওয়ার পরে জানতে পারলাম জঙ্গলে অনেক ঘাস থাকে। আর আমরা ঘাস খাই। সেই থেকে ধারণা করলাম আমরা হয়তো জঙ্গলে থাকি। পরে জানলাম, জঙ্গলে <span class="fw-bold">বাঘ </span>নামক একটা হিংস্র প্রাণী আছে। সে আমাদের মতো নিরীহ গরুকে খেয়ে ফেলে! তখন বুঝলাম, আমাদের জন্ম জঙ্গলে না গ্রামে। কারণ গ্রামেও ঘাস আছে।</p> <p>মজার বিষয় হলো, গ্রামে আমাদের সামনে কিছু পিচ্চি পোলাপাইন এসে খেলাধুলা করতো। এই পোলাপাইন রা বাঘকে মামা বলে ডাকে। জঙ্গলের এক হিংস্র প্রাণী কীভাবে মানুষের বাচ্চার মামা হতে পারে, এটার রহস্য আমি আজও উদ্ঘাটন করতে পারলাম না! এখন এই রহস্য জানার আগেই যদি আমি কুরবান হয়ে যাই, তাহলে আমার আফসোস রয়েই যাবে!</p>
+							<a href="#" class="btn btn-light link-success fw-bold">আরো জানুন!</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- About Animals Ends -->
 	</main>
 	<!-- =========== Main Section Ends =========== -->
 
