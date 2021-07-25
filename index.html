@@ -53,7 +53,7 @@
 			left: 0;
 			right: 0;
 			bottom: 0;
-			background-color: rgba(0, 0, 0, 0.6);
+			background-color: rgba(0, 0, 0, 0.7);
 			z-index: 2;
 		}
 	</style>
@@ -64,8 +64,8 @@
 	<!-- =========== Header Section Starts =========== -->
 	<header id="header-section">
 		<!-- Navbar Start -->
-		<nav style="z-index: 10;"
-			class="navbar navbar-expand-lg navbar-light bg-light sticky-top py-3 border-bottom border-3">
+		<nav style="z-index: 20;"
+			class="navbar navbar-expand-lg navbar-light bg-light fixed-top py-3 border-bottom border-3">
 			<div class="container">
 				<a class="navbar-brand fw-bold" href="#">ইবনু <span class="text-success">গরুহাট</span></a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -185,7 +185,7 @@
 			<div class="container py-5">
 				<div class="row g-2">
 					<div class="col col-lg-4 col-md-6">
-						<div class="card text-center border-0" style="width: 20rem;">
+						<div class="card text-center border-0 mx-auto" style="width: 20rem;">
 							<img src="./images/cow.jpg" class="card-img-top" alt="...">
 							<div class="card-body py-2">
 								<h2 class="card-title fw-bold">গরু</h2>
@@ -197,7 +197,7 @@
 						</div>
 					</div>
 					<div class="col col-lg-4 col-md-6">
-						<div class="card text-center border-0" style="width: 20rem;">
+						<div class="card text-center border-0 mx-auto" style="width: 20rem;">
 							<img src="./images/goat.jpg" class="card-img-top" alt="...">
 							<div class="card-body py-2">
 								<h2 class="card-title fw-bold">ছাগল</h2>
@@ -208,7 +208,7 @@
 						</div>
 					</div>
 					<div class="col col-lg-4 col-md-6">
-						<div class="card text-center border-0" style="width: 20rem;">
+						<div class="card text-center border-0 mx-auto" style="width: 20rem;">
 							<img src="./images/camel.jpg" class="card-img-top" alt="...">
 							<div class="card-body py-2">
 								<h2 class="card-title fw-bold">উট</h2>
@@ -227,8 +227,7 @@
 		<section id="about-owner" class="position-relative overflow-hidden">
 			<div class="overlay"></div>
 			<img class="img-fluid" src="./images/cow-bg-2.jpg" alt="">
-			<div style="z-index: 10;"
-				class="container text-light d-flex justify-content-between align-items-center position-absolute top-50 start-50 translate-middle w-100">
+			<div style="z-index: 10;" class="container text-light d-flex justify-content-between align-items-center position-absolute top-50 start-50 translate-middle w-100">
 				<div id="owner-text" class="w-50">
 					<h1 class="display-1 text-success">আমার সম্পর্কে!</h1>
 					<p class="lead">এই ডিজিটাল গরুহাটের মালিক হলাম আমি! তো, আমার সম্পর্কে কিছু জানবেন না, তা কি হয়?!</p>
@@ -288,7 +287,7 @@
 		<!-- About Animals Ends -->
 
 		<!-- Animal Shop Start -->
-		<section id="animal-shop" class="overflow-hidden">
+		<section id="animal-shop" class="py-5 mb-5 overflow-hidden">
 			<div class="container py-5">
 				<div class="animal-shop-heading text-center w-75 mx-auto">
 					<h1 class="display-3 text-success fw-bold">খরিদ করুন!</h1>
@@ -299,7 +298,7 @@
 				</div>
 				<div class="row g-5 mt-2">
 					<div class="col col-lg-3 col-md-6">
-						<div class="card text-center border-2 border-success bg-light" style="width: 17rem;">
+						<div class="card text-center border-2 border-success bg-light mx-auto" style="width: 17rem;">
 							<img src="./images/sell-cow-1.jpg" class="card-img-top" alt="...">
 							<div class="card-body py-4 px-3">
 								<p class="card-text text-muted lead m-0">আমারে পছন্দ হইছে?</p>
@@ -309,7 +308,7 @@
 						</div>
 					</div>
 					<div class="col col-lg-3 col-md-6">
-						<div class="card text-center border-2 border-success bg-light" style="width: 17rem;">
+						<div class="card text-center border-2 border-success bg-light mx-auto" style="width: 17rem;">
 							<img src="./images/sell-goat.jpg" class="card-img-top" alt="...">
 							<div class="card-body py-4 px-3">
 								<p class="card-text text-muted lead m-0">আমারে পছন্দ হইছে?</p>
@@ -319,7 +318,7 @@
 						</div>
 					</div>
 					<div class="col col-lg-3 col-md-6">
-						<div class="card text-center border-2 border-success bg-light" style="width: 17rem;">
+						<div class="card text-center border-2 border-success bg-light mx-auto" style="width: 17rem;">
 							<img src="./images/sell-cow-2.jpg" class="card-img-top" alt="...">
 							<div class="card-body py-4 px-3">
 								<p class="card-text text-muted lead m-0">আমারে পছন্দ হইছে?</p>
@@ -329,7 +328,7 @@
 						</div>
 					</div>
 					<div class="col col-lg-3 col-md-6">
-						<div class="card text-center border-2 border-success bg-light" style="width: 17rem;">
+						<div class="card text-center border-2 border-success bg-light mx-auto" style="width: 17rem;">
 							<img src="./images/sell-camel.jpg" class="card-img-top" alt="...">
 							<div class="card-body py-4 px-3">
 								<p class="card-text text-muted lead m-0">আমারে পছন্দ হইছে?</p>
@@ -346,8 +345,34 @@
 	<!-- =========== Main Section Ends =========== -->
 
 	<!-- =========== Footer Section Starts =========== -->
-	<footer id="footer-section">
-
+	<footer id="footer-section" class="bg-dark text-light pt-5 pb-3">
+		<div class="container">
+			<div class="row g-5 py-3">
+				<div class="col-lg-4">
+					<div class="footer-logo">
+						<h1><a class="fw-bold link-light text-decoration-none" href="#">ইবনু <span class="text-success">গরুহাট</span></a></h1>
+					</div>
+					<div class="footer-text">
+						<p class="lead">সব কথাবার্তা এখানেই শেষ! ওয়েবসাইটও এখানে আপাতত রাখছি। আরো অনেক কাজ আছে। পরে আবার এখানে একসময় বসবো ইনশা আল্লাহ্‌!</p>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="footer-social-links">
+						<ul class="list-unstyled">
+							<li><h2><a href="#" class="link-light text-decoration-none"> সোশ্যাল প্রোফাইলস</a></h2></li>
+							<li><a href="#" class="lead link-light text-decoration-none">ফেসবুক</a></li>
+							<li><a href="#" class="lead link-light text-decoration-none">টুইটার</a></li>
+							<li><a href="#" class="lead link-light text-decoration-none">ইন্সটাগ্রাম</a></li>
+							<li><a href="#" class="lead link-light text-decoration-none">গিটহাব</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="copyright d-flex justify-content-center">
+				<p class="lead pt-3">কপিরাইট &copy; ২০২১ | সর্বস্বত্ব সংরক্ষিত | <a class="link-success text-decoration-none" href="#">ইবনু মাহতাব</a></p>
+			</div>
+		</div>
 	</footer>
 	<!-- =========== Footer Section Ends =========== -->
 
